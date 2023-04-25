@@ -1,0 +1,175 @@
+.title {
+	list-style:none;
+	margin: 0;
+	
+	background: #0093AF; /*colour of title block*/
+	
+	display: flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.title a {
+	text-direction: none;
+	display: block;
+	padding: 25px;
+	color: #F0F8FF; /*text colour*/
+	font-family: "Monaco", Monospace;
+	text-decoration: none;
+}
+
+.title a:hover {
+	background: darken(#9dd9d2, 2%);
+}
+
+#rcorners { 
+	border-radius: 20px;
+}
+
+@media all and (max-width: 800px) {
+	.navigation {
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.navigation {
+		flex-flow: column wrap;
+		padding: 0;
+	}
+	
+	.navigation a {
+		text-align: center;
+		padding: 10xp;
+		border-top: 1xp solid rgba(255,255,255,0.3);
+		border-bottom: 1xp solid rgba(0,0,0,0.1);
+	}
+	
+	.navigation li :last-of-type a {
+		border-bottom: none;
+	}
+}
+
+div.gallery {
+	border: none;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+	font-family: "Monaco", Monospace;
+	color: #F0F8FF;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive{
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 90%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer {
+	list-style:none;
+	margin: 0;
+	margin-top: 20px;
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #0093AF; /*colour of title block*/
+	
+	display: flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.footer a {
+	text-direction: none;
+	display: block;
+	padding: 1.5em;
+	color: #F0F8FF; /*text colour*/
+	font-family: "Monaco", Monospace;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	background: darken(#9dd9d2, 2%);
+}
+
+@media all and (max-width: 800px) {
+	.navigation {
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.navigation {
+		flex-flow: column wrap;
+		padding: 0;
+	}
+	
+	.navigation a {
+		text-align: center;
+		padding: 10xp;
+		border-top: 1xp solid rgba(255,255,255,0.3);
+		border-bottom: 1xp solid rgba(0,0,0,0.1);
+	}
+	
+	.navigation li :last-of-type a {
+		border-bottom: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

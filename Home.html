@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cola De Gallo | Home</title>
+		<link rel="icon" href="headpic.png">
+		<link rel="stylesheet" href="home.css">
+		<link rel="stylesheet" href="home2.css">
+		<style>
+			h1 {
+				text-align: center;
+				color: #1444A3;
+				font-family: "Monaco", Monospace;
+				font-size: 50px;
+			}
+			
+			.container {
+				position: relative;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			
+			.image {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 100%;
+				height: auto;
+			}
+			
+			.overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				transition: .7s ease;
+				background-color: #007cbe;
+			}
+			
+			.container:hover .overlay {
+				opacity: 0.8;
+			}
+			
+			.text {
+				color: white;
+				font-size: 65px;
+				position: absolute;
+				top: 37%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				font-family: "Lucida Console", Monospace;
+				text-align: center;
+			}
+			
+			.text2 {
+				color: white;
+				font-size: 25px;
+				position: absolute;
+				top: 59%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				font-family: "Lucida Console", Monospace;
+				text-align: center;
+			}
+			
+			h2 {
+				text-align: center;
+				color: #1444A3;
+				font-family: "Monaco", Monospace;
+				font-size: 40px;
+				padding-left:400px;
+				padding-right:400px;
+			}
+			
+			body {background-color:#EAFFFD;}
+		</style>
+	</head>
+	<body>
+		<h1>Cola De Gallo</h1>		
+		<ul class="title" id="rcorners">
+			<li><a href="Home.html" target="_self">Home</a></li>
+			<li><a href="About.html" target="_self">About</a></li>
+			<li><a href="AlcoholFree.html" target="_self">Alcohol-Free</a></li>
+			<li><a href="Countries.html" target="_self">Countries</a></li>
+		</ul>
+		
+	<div class="container">
+		<img src="welcome.jpg" alt="Welcome" class="image" id=rcorners>
+		<div class="overlay" id=rcorners>
+			<div class="text">Welcome to Cola De Gallo</div>
+				<div class="text2">Signature cocktails from countries around the world with recipes on how they are created and the history behind them. Drink, enjoy and learn something new.</div>
+		</div>
+	</div>
+	
+	<div class="continent" id="rcorners">
+		<h2>Continents</h2>
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="NorthAmerica.html">
+					<img src="northAmerica.jpg" alt="NA" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">North America</div>
+			</div>
+		</div>
+		
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="SouthAmerica.html">
+					<img src="southAmerica1.jpg" alt="SA" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">South America</div>
+			</div>
+		</div>
+		
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="Europe.html">
+					<img src="Europe.jpg" alt="E" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">Europe</div>
+			</div>
+		</div>
+		
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="Africa.html">
+					<img src="Africa.jpg" alt="AF" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">Africa</div>
+			</div>
+		</div>
+		
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="Asia.html">
+					<img src="Asia.jpg" alt="AS" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">Asia</div>
+			</div>
+		</div>
+		
+		<div class="responsive">
+			<div class="gallery" id=rcorners>
+				<a target="_self" href="Oceania.html">
+					<img src="Oceania.jpg" alt="OC" width="500" height="500" id=rcorners>
+				</a>
+				<div class="desc">Oceania</div>
+			</div>
+		</div>
+	</div>
+	
+		<div class="footer" id="rcorners">
+			<li><a href="TermsofService.html">Terms of Service</a></li>
+			<li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+			<li><a href="Equipment.html">Equipment</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</div>
+	</body>
+</html>
